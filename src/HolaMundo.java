@@ -10,6 +10,9 @@ public class HolaMundo {
 
         System.out.print("Dime tu año de nacimiento: ");
         int anio = lector.nextInt();
-        
+
+        int edad = 2022 - anio;
+
+        System.out.println("Tu nombre es: " + nombre + " y tienes " + edad + " años");
     }
 }
