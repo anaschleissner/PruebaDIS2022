@@ -8,9 +8,8 @@ public class HolaMundo {
         System.out.print("Dime tu nombre: ");
         String nombre = lector.nextLine();
 
-        System.out.print("Dime tu edad: ");
-        int edad = lector.nextInt();
-
-        System.out.println("Hola " + nombre + " tienes " + edad + " años\n");
+        System.out.print("Dime tu año de nacimiento: ");
+        int anio = lector.nextInt();
+        
     }
 }
